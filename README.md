@@ -1,45 +1,30 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+Задача 1.
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+Реализовать следующие классы:
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+Фигура, квадрат и круг, параллелепипед.
 
----
+1. Сделать у фигуры два свойства имя и площадь.
+2. Реализовать конструкторы. Реализовать метод получить площадь.
+3. Унаследовать от фигуры 2 класса - квадрат и круг.
+4. У классов должны быть новые параметры - длина стороны у квадрата и радиус у круга.
+5. Переопределить у них метод получения площади.
+6. Унаследовать от квадрата класс параллелепипед. Реализовать в нем новый метод получения объема.
+7. Создать массив типа фигура и поместить туда экземпляры каждого класса.
+8. Пройдитесь по массиву и вызовите методы получения имени и площади у каждого объекта. Если этот объект параллелепипед - выведите дополнительно его объем.
 
-## Edit a file
+Задача 2.
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+Создайте класс, который описывает трехмерный вектор.
+Реализуйте следующие методы:
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+1. Конструктор с параметрами в виде списка координат x, y, z
+2. Метод, вычисляющий длину вектора. Корень можно посчитать с помощью Math.sqrt():
+   
+   ![IntelliJ RUN button](https://habrastorage.org/webt/cx/3t/qr/cx3tqr5qzkmo4hgz0cskrqo17n4.png)
+3. Метод, вычисляющий скалярное произведение:
+   ![IntelliJ RUN button](https://habrastorage.org/webt/g6/tf/q2/g6tfq2sr3mzrcm8gmslnar8lid0.png)
+4. метод, вычисляющий векторное произведение с другим вектором:
+   ![IntelliJ RUN button](https://habrastorage.org/webt/99/40/m9/9940m9zyp9inyfr-w1sy3n59w-0.png)
 
----
 
-## Create a file
-
-Next, you’ll add a new file to this repository.
-
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
-
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
-
----
-
-## Clone a repository
-
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
-
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
-
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).

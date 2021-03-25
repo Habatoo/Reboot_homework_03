@@ -22,8 +22,10 @@
 2. Метод, вычисляющий длину вектора. Корень можно посчитать с помощью Math.sqrt():
    
    ![IntelliJ RUN button](https://habrastorage.org/webt/cx/3t/qr/cx3tqr5qzkmo4hgz0cskrqo17n4.png)
+
 3. Метод, вычисляющий скалярное произведение:
-   ![IntelliJ RUN button](https://habrastorage.org/webt/g6/tf/q2/g6tfq2sr3mzrcm8gmslnar8lid0.png)
+   ![IntelliJ RUN button](https://habrastorage.org/webt/g6/tf/q2/g6tfq2sr3mzrcm8gmslnar8lid0.png)ё
+   
 4. метод, вычисляющий векторное произведение с другим вектором:
    ![IntelliJ RUN button](https://habrastorage.org/webt/99/40/m9/9940m9zyp9inyfr-w1sy3n59w-0.png)
 
